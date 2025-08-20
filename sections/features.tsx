@@ -11,106 +11,108 @@ const Feature17 = () => {
   return (
     <section className="py-16">
       <div className="container max-w-7xl">
-        <p className="mb-4 text-xs text-muted-foreground md:pl-5">Features</p>
-        <h2 className="text-3xl font-medium md:pl-5 lg:text-4xl">
+        <h2 className="mt-13 text-3xl font-medium md:pl-5 lg:text-4xl">
           VoyAIge — Core Features
         </h2>
         <div className="mt-5 grid gap-x-20 gap-y-8 md:grid-cols-2 md:gap-y-6 lg:mt-5">
-          {/* Fare-Drop & Reminders */}
+          {/* Reminders & Calendar Sync */}
           <div className="flex gap-6 rounded-lg md:block md:p-5">
             <span className="mb-8 flex size-10 shrink-0 items-center justify-center rounded-full bg-accent md:size-12">
               <Timer className="size-4 md:size-6" />
             </span>
             <div>
               <h3 className="font-medium md:mb-2 md:text-xl">
-                Fare-Drop Alerts & Trip Reminders
+                Reminders & Calendar Sync
               </h3>
               <p className="text-sm text-muted-foreground md:text-base">
-                Track saved routes for price drops and get event reminders 1 day
-                before. Your itinerary auto-syncs to calendar so nothing slips
-                by.
+                Confirm your itinerary and get eve-of activity reminders. Events
+                are added to Google Calendar and stay up to date when plans
+                change.
               </p>
             </div>
           </div>
 
-          {/* AI Itineraries & Weather Reschedule */}
+          {/* Weather-Aware Alternatives */}
           <div className="flex gap-6 rounded-lg md:block md:p-5">
             <span className="mb-8 flex size-10 shrink-0 items-center justify-center rounded-full bg-accent md:size-12">
               <Zap className="size-4 md:size-6" />
             </span>
             <div>
               <h3 className="font-medium md:mb-2 md:text-xl">
-                AI Itineraries & Weather-Smart Rescheduling
+                Weather-Aware Alternatives
               </h3>
               <p className="text-sm text-muted-foreground md:text-base">
-                Generate day-by-day plans in seconds. If the forecast turns bad,
-                we propose alternatives and reschedule via WhatsApp—automatically.
+                If tomorrow’s forecast looks rainy for a time slot, we suggest
+                indoor or covered options. Accept changes and your plan and
+                calendar update automatically.
               </p>
             </div>
           </div>
 
-          {/* Personalized Destination Cards */}
+          {/* Hidden-Gem Itineraries */}
           <div className="flex gap-6 rounded-lg md:block md:p-5">
             <span className="mb-8 flex size-10 shrink-0 items-center justify-center rounded-full bg-accent md:size-12">
               <ZoomIn className="size-4 md:size-6" />
             </span>
             <div>
               <h3 className="font-medium md:mb-2 md:text-xl">
-                3 Destination Cards, Picked for You
+                Hidden-Gem Itineraries
               </h3>
               <p className="text-sm text-muted-foreground md:text-base">
-                See three tailored destinations with “why chosen” notes,
-                seasonality tips, indicative budgets—plus inline flight & hotel
-                options.
+                Personalized, lesser-known places matched to your interests,
+                budget, and accessibility needs—complete with travel times and
+                opening hours.
               </p>
             </div>
           </div>
 
-          {/* On-Site GPS Mode */}
+          {/* On-Site Mode & Nearby Restaurants */}
           <div className="flex gap-6 rounded-lg md:block md:p-5">
             <span className="mb-8 flex size-10 shrink-0 items-center justify-center rounded-full bg-accent md:size-12">
               <PersonStanding className="size-4 md:size-6" />
             </span>
             <div>
               <h3 className="font-medium md:mb-2 md:text-xl">
-                On-Site Mode (GPS Opt-In)
+                On-Site Mode & Nearby Restaurants
               </h3>
               <p className="text-sm text-muted-foreground md:text-base">
-                Enable location sharing to get nearby activities, food, and
-                deals right in WhatsApp while you’re there.
+                Opt in to share location on the day to get nearby restaurants
+                and timely tips. Safety add-on for companions: proximity alerts
+                at 500&nbsp;m (message) and 1&nbsp;km (phone call).
               </p>
             </div>
           </div>
 
-          {/* Value on Flights & Hotels */}
+          {/* Tourist-Ready Bookings & Value */}
           <div className="flex gap-6 rounded-lg md:block md:p-5">
             <span className="mb-8 flex size-10 shrink-0 items-center justify-center rounded-full bg-accent md:size-12">
               <DollarSign className="size-4 md:size-6" />
             </span>
             <div>
               <h3 className="font-medium md:mb-2 md:text-xl">
-                Great Value: Flights & Hotels
+                Tourist-Ready Bookings & Value
               </h3>
               <p className="text-sm text-muted-foreground md:text-base">
-                Compare across partners to surface the best options for your
-                budget and comfort, with booking redirect links.
+                Visitors can book AI-suggested activities with local pricing
+                guidance. We handle time zones and conflicts so your schedule
+                just works.
               </p>
             </div>
           </div>
 
-          {/* WhatsApp-first */}
+          {/* One Conversation + Accessibility */}
           <div className="flex gap-6 rounded-lg md:block md:p-5">
             <span className="mb-8 flex size-10 shrink-0 items-center justify-center rounded-full bg-accent md:size-12">
               <MessagesSquare className="size-4 md:size-6" />
             </span>
             <div>
               <h3 className="font-medium md:mb-2 md:text-xl">
-                WhatsApp-First Experience
+                One Conversation + Accessibility
               </h3>
               <p className="text-sm text-muted-foreground md:text-base">
-                Welcome message on signup (“Welcome to VoyAIge”), quick
-                support, daily feedback check-ins, and travel updates—all in one
-                chat.
+                All confirmations, reminders, updates, and daily feedback live
+                in a single WhatsApp chat thread. “Read reply” speaks responses
+                aloud, and voice input lets you ask hands-free.
               </p>
             </div>
           </div>
